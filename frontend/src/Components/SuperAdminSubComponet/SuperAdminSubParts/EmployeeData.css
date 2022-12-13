@@ -1,0 +1,15 @@
+.EmployeeDataTable
+{
+  /* border: 2px solid green;   */
+}
+.EmployeeDataTable::-webkit-scrollbar{
+    width: .5em;
+  }
+  .EmployeeDataTable::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  .EmployeeDataTable::-webkit-scrollbar-thumb{
+    background-color: #272c31;
+    outline: 1px solid none;
+  }
+ 

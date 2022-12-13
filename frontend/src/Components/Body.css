@@ -1,0 +1,225 @@
+.mainTabRow{
+    cursor:pointer;
+}
+/* Accounting estimate styling */
+.subpageTitleHeading{
+    font-size: 6px;
+}
+.sabpageheading{
+font-size: 1.5rem;
+}
+.addEstimate{
+    background-color:#00d68f!important;
+}
+/* Add Estimate */
+.addEstimatetius{
+    max-height:70vh;
+    overflow:hidden ;
+    overflow-y: auto;
+  }
+  .addEstimatetius::-webkit-scrollbar{
+    width: .5em;
+  }
+  .addEstimatetius::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  .addEstimatetius::-webkit-scrollbar-thumb{
+    background-color: #272c31;
+    outline: 1px solid none;
+  }
+  .addEstimateOperation{
+    min-width:10%;
+    font-size:.75rem;
+  }
+  .operationCancel{
+    background-color: transparent;
+    border-color: rgba(245, 109, 88, 0.3);
+    border-width: 2px;
+    color: #f56d58;
+  }
+  /* Accounting invoices styling start */
+  .invoiceTabs{
+    cursor:pointer;
+  }
+  /* Accounting Expense */
+  .ManageComapny
+  {
+    cursor:pointer;
+    border: 1px solid #6e49e8;
+    font-size:.75rem;
+  }
+  /* Add Estimate styling start */
+     /* Back Styling */
+ .backToParent{
+  border:2px solid #36324b;
+  color: #6e49e8;
+ }       
+     /* Back Styling End */
+.customEstimatebox{
+  background-color:#272729;
+}
+.EstimateFormFeilds{
+  border-radius:.75rem;
+}
+/* Calender Styling Start */
+.react-calendar {
+  /* width: 500px; */
+  /* max-width: 100%; */
+  /* background: white; */
+  /* border: 1px solid #a0a096; */
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+  color:white;
+  background-color: #272c31;
+}
+.react-calendar--doubleView {
+  width: 700px;
+  color:white;
+}
+.react-calendar--doubleView .react-calendar__viewContainer {
+  display: flex;
+  margin: -0.5em;
+  color:white;
+}
+.react-calendar--doubleView .react-calendar__viewContainer > * {
+  width: 50%;
+  margin: 0.5em;
+  color:white;
+}
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* color:white; */
+}
+.react-calendar button {
+  margin: 0;
+  border: 0;
+  outline: none;
+  color:white;
+}
+.react-calendar button:enabled:hover {
+  cursor: pointer;
+}
+.react-calendar__navigation {
+  display: flex;
+  height: 44px;
+  margin-bottom: 1em;
+}
+.react-calendar__navigation button {
+  min-width: 44px;
+  background: none;
+}
+.react-calendar__navigation button:disabled {
+  background-color: #f0f0f0;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #e6e6e6;
+}
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.75em;
+  color:white;
+}
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0.5em;
+}
+.react-calendar__month-view__weekNumbers .react-calendar__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+.react-calendar__month-view__days__day--weekend {
+  color: #ffff!important;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #757575!important;
+}
+.react-calendar__year-view .react-calendar__tile,
+.react-calendar__decade-view .react-calendar__tile,
+.react-calendar__century-view .react-calendar__tile {
+  padding: 2em 0.5em;
+}
+.react-calendar__tile {
+  max-width: 100%;
+  padding: 10px 6.6667px;
+  background: none;
+  text-align: center;
+  line-height: 16px;
+}
+.react-calendar__tile:disabled {
+  background-color: #f0f0f0;
+}
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #6e49e8;
+}
+.react-calendar__tile--now {
+  background: #6e49e8;
+  border-radius:.5rem
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #6e49e8;
+}
+.react-calendar__tile--hasActive {
+  background: #6e49e8;
+}
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #6e49e8;
+}
+.react-calendar__tile--active {
+  background: #6e49e8;
+  color: white;
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #6e49e8;
+  border-radius:.5rem
+}
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #6e49e8;
+}
+.estimateFormFeilds{
+  font-size: .75rem;
+}
+/* Add currency */
+.CurrancyRangeer{
+  height:20vh;
+  overflow:hidden ;
+  overflow-y: auto;
+}
+.CurrancyRangeer::-webkit-scrollbar{
+  width: .5em;
+}
+.CurrancyRangeer::-webkit-scrollbar-track{
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.CurrancyRangeer::-webkit-scrollbar-thumb{
+  background-color: #272c31;
+  outline: 1px solid none;
+}
+/* Calendar styling end */
+/* Dicount Component Styling start */
+.discountBox{
+  background-color: black;
+  border-radius: .5rem;
+}
+/* Search and history display */
+.EstimateSearchTitle{
+  font-size: .75rem;
+}
+.estimateSearch{
+  background-color: #00d68f;
+}
+/* Discount component styling end */
+  /* Add Estimate styling end */

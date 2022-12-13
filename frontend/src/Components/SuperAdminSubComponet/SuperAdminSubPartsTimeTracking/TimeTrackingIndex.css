@@ -1,0 +1,34 @@
+/* For time tracking header styling start */
+.TimeTrackHeader{
+    border-top-right-radius:10px;
+}
+/* For time tracking header styling end */
+/* Time tracking BODY STYLING start */
+.timetrackingBorder{
+    height:75vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.timetrackingBorder::-webkit-scrollbar{
+    width: .5em;
+    border-radius:25px;
+}
+.timetrackingBorder::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.timetrackingBorder::-webkit-scrollbar-thumb{
+    background-color: #272c31;
+    outline: 1px solid none;
+}
+/* body TimeProgress component css start below */
+.userProgressMenu{
+    /* width: 10% !important;
+   list-style-type: none;
+    border:2px solid red; */
+}
+.ViewAllLinks{
+    border:2px solid #2b263d;
+    color:#6e49e8;
+}
+/* body TimeProgress component css start below */
+/* Time tracking BODY STYLING end */

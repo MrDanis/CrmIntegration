@@ -1,0 +1,218 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.adminDashboardBody{
+  height:100vh;
+  overflow:hidden ;
+  overflow-y: auto;
+}
+.adminDashboardBody::-webkit-scrollbar{
+  width: 1em;
+}
+.adminDashboardBody::-webkit-scrollbar-track{
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.adminDashboardBody::-webkit-scrollbar-thumb{
+  background-color: #272c31;
+  outline: 1px solid none;
+}
+/* / Login Screen Css / */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hw {
+  height: 100%;
+  width: 100%;
+}
+.bg{
+  background-color: rgb(204, 192, 19);
+}
+.bg1{
+  background-color: aqua;
+}
+/* / header / */
+.mainLogin {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 90%;
+  overflow: auto;
+ 
+  /* / display: grid; / */
+  
+}
+/* / body / */
+.body1 {
+  width: 100%;
+  height: 100%;
+ 
+  display: grid;
+  grid-template-columns: 57% 43%;
+  grid-template-rows: 100%;
+ 
+  /* / display: grid; / */
+  
+}
+@media screen and (max-width: 970px) {
+  .body1 {
+    width: 100%;
+  height: 100%;
+ 
+  display: grid;
+  grid-template-columns: 100% ;
+  grid-template-rows: 120% 100%;
+  }
+}
+.rightBodyDiv{
+  height:60% ;
+  width: 45%;
+  margin-top: 2%;
+  margin-left: 2%;
+  background-color:#e3dbfb;
+  border:1px solid #e3dbfb;
+border-radius: 10px;  
+display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 20% 15% 15% 15% 1fr;
+  
+}
+.leftBodyDiv{
+  height:110% ;
+  width: 60%;
+  margin-top: 1.5%;
+  margin-right: 2%;
+  background-color:#f9f9f9;
+  border:1px solid #f9f9f9;
+border-radius: 10px;  
+display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 12.5% 12.5% 15% 15% 8% 15% 18%
+  
+}
+.curser:hover{
+  cursor: pointer;
+}
+.input:active{
+  border: #f91c45;
+  outline:none;
+}
+.fab {
+  padding: 2%;
+  font-size: 25px;
+  width: 12%;
+  text-align: center;
+  text-decoration: none;
+
+}.fab:hover {
+  color: #6e49e8;
+  border: 1px solid #6e49e8;
+  border-radius: 30%;
+}
+
+/* / Set a specific color for each brand / */
+
+/* / Facebook / */
+.fab-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* / Twitter / */
+.fab-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* / Register  / */
+.leftBodyDivReg{
+  height:120% ;
+  width: 60%;
+  margin-top: 1.5%;
+  margin-right: 2%;
+  background-color:#f9f9f9;
+  border:1px solid #f9f9f9;
+border-radius: 10px;  
+display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 9% 9% 11.5% 11.5% 11.5% 11.5% 7% 10% 15%
+  
+}
+.rightBodyDivReg{
+  height:102% ;
+  width: 40%;
+  margin-top: 2%;
+  margin-left: 2%;
+  background-color:#e3dbfb;
+  border:1px solid #e3dbfb;
+border-radius: 10px;  
+display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 5% 8% 22% 5% 8% 22% 5% 1fr;
+  background-image: linear-gradient(#7c56fc,#7450eb,#7651f0,#6f4ce1,#6847d2,#6847d2,#6143c6,#573cb0, #573cb0);
+  
+}
+ /* forget Screen */
+.leftBodyDivFor{
+  height:75% ;
+  width: 60%;
+  margin-top: 6%;
+  margin-right: 2%;
+  background-color:#f9f9f9;
+  border:1px solid #f9f9f9;
+border-radius: 10px;  
+display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 20% 25% 20% 15%
+  
+}
+.rightBodyDivFor{
+  height:65% ;
+  width: 45%;
+  margin-top: 2%;
+  margin-left: 2%;
+  background-color:#fef8f6;
+  border:1px solid #fef8f6;
+border-radius: 10px;  
+display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 8% 30% 8% 30% 14%;
+  
+}
