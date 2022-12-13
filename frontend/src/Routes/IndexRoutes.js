@@ -19,7 +19,7 @@ const IndexRoutes = () => {
   return (
     <>
    
-     {userRole === 'SuperAdmin' ? <SuperAdminRoutes></SuperAdminRoutes>:null}
+     {userRole === 'Super Admin' ? <SuperAdminRoutes></SuperAdminRoutes>:null}
      {userRole === 'Admin' && isLogin=== true ?<AdminRoutes></AdminRoutes>:null}
      {userRole === 'Staff'&& isLogin=== true ?<StafRoutes></StafRoutes>:null}
      {userRole === 'Public' && isLogin=== false ?<><PublicRoutes></PublicRoutes></>:null}

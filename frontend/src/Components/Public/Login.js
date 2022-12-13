@@ -7,6 +7,7 @@ import useWindowDimensions from "./useWindowDimensions";
 import { BsCircle } from "react-icons/bs";
 import Switch from "react-switch";
 const Login = (props) => {
+  const { userRole,loading } = useSelector((state) => state.authUser)
   const { ht, wd } = useWindowDimensions();
   const [email, setemial] = useState();
   const [password, setpassword] = useState();
@@ -20,7 +21,16 @@ const Login = (props) => {
   // const {userRole } = useSelector((state) => state.authUser)// this reducer will be use for the error handling soon
   useEffect(()=>{
    console.log('This is the login component');
-  },[]);
+   if(loading==='succeeded')
+   {
+      // alert('user is successfully login just dispatch the login reducer');
+      dispatch(isLogin());    
+   }
+   if(loading==='failed')
+   {
+    alert('You are not authorize....');
+   }
+  },[loading]);
   const checkUser =()=>{
      let userCredentials= {
       email:email,
